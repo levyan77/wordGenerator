@@ -1,0 +1,344 @@
+ERROR:root:Failed to load image D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png: cannot use geometry manager grid inside .!toplevel.!canvas.!frame which already has slaves managed by pack
+ERROR:root:Failed to load image D:/Kerjaan/iseng/word maker/tc1\dd5000_2.png: cannot use geometry manager grid inside .!toplevel.!canvas.!frame which already has slaves managed by pack
+ERROR:root:Failed to load image D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png: cannot use geometry manager grid inside .!toplevel.!canvas.!frame which already has slaves managed by pack
+ERROR:root:Failed to load image D:/Kerjaan/iseng/word maker/tc1\ddtrn_2.png: cannot use geometry manager grid inside .!toplevel.!canvas.!frame which already has slaves managed by pack
+ERROR:root:Failed to load image D:/Kerjaan/iseng/word maker/tc1\ddtrn_3.png: cannot use geometry manager grid inside .!toplevel.!canvas.!frame which already has slaves managed by pack
+ERROR:root:Failed to load image D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png: cannot use geometry manager grid inside .!toplevel2.!canvas.!frame which already has slaves managed by pack
+ERROR:root:Failed to load image D:/Kerjaan/iseng/word maker/tc1\dd5000_2.png: cannot use geometry manager grid inside .!toplevel2.!canvas.!frame which already has slaves managed by pack
+ERROR:root:Failed to load image D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png: cannot use geometry manager grid inside .!toplevel2.!canvas.!frame which already has slaves managed by pack
+ERROR:root:Failed to load image D:/Kerjaan/iseng/word maker/tc1\ddtrn_2.png: cannot use geometry manager grid inside .!toplevel2.!canvas.!frame which already has slaves managed by pack
+ERROR:root:Failed to load image D:/Kerjaan/iseng/word maker/tc1\ddtrn_3.png: cannot use geometry manager grid inside .!toplevel2.!canvas.!frame which already has slaves managed by pack
+ERROR:root:Failed to load image D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png: cannot use geometry manager grid inside .!toplevel3.!canvas.!frame which already has slaves managed by pack
+ERROR:root:Failed to load image D:/Kerjaan/iseng/word maker/tc1\dd5000_2.png: cannot use geometry manager grid inside .!toplevel3.!canvas.!frame which already has slaves managed by pack
+ERROR:root:Failed to load image D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png: cannot use geometry manager grid inside .!toplevel3.!canvas.!frame which already has slaves managed by pack
+ERROR:root:Failed to load image D:/Kerjaan/iseng/word maker/tc1\ddtrn_2.png: cannot use geometry manager grid inside .!toplevel3.!canvas.!frame which already has slaves managed by pack
+ERROR:root:Failed to load image D:/Kerjaan/iseng/word maker/tc1\ddtrn_3.png: cannot use geometry manager grid inside .!toplevel3.!canvas.!frame which already has slaves managed by pack
+ERROR:root:Failed to load image D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png: cannot use geometry manager grid inside .!toplevel.!canvas.!frame which already has slaves managed by pack
+ERROR:root:Failed to load image D:/Kerjaan/iseng/word maker/tc1\dd5000_2.png: cannot use geometry manager grid inside .!toplevel.!canvas.!frame which already has slaves managed by pack
+ERROR:root:Failed to load image D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png: cannot use geometry manager grid inside .!toplevel.!canvas.!frame which already has slaves managed by pack
+ERROR:root:Failed to load image D:/Kerjaan/iseng/word maker/tc1\ddtrn_2.png: cannot use geometry manager grid inside .!toplevel.!canvas.!frame which already has slaves managed by pack
+ERROR:root:Failed to load image D:/Kerjaan/iseng/word maker/tc1\ddtrn_3.png: cannot use geometry manager grid inside .!toplevel.!canvas.!frame which already has slaves managed by pack
+ERROR:root:Failed to generate document: 'str' object has no attribute 'get'
+ERROR:root:Failed to generate document: 'str' object has no attribute 'get'
+ERROR:root:Failed to generate document: 'str' object has no attribute 'get'
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 70 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 91 34437
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 70 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 91 33777
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 70 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 91 9836
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 70 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 91 10028
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 70 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 91 10438
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 70 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 91 34437
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 70 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 91 34437
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 70 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 91 33777
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 70 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 91 33777
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 70 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 91 9836
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 70 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 91 10028
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 70 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 91 10438
+ERROR:root:Error opening image t: [Errno 2] No such file or directory: 'D:\\Kerjaan\\iseng\\word maker\\t'
+ERROR:root:Error opening image e: [Errno 2] No such file or directory: 'D:\\Kerjaan\\iseng\\word maker\\e'
+ERROR:root:Error opening image s: [Errno 2] No such file or directory: 'D:\\Kerjaan\\iseng\\word maker\\s'
+ERROR:root:Error opening image 1: [Errno 2] No such file or directory: 'D:\\Kerjaan\\iseng\\word maker\\1'
+ERROR:root:Error opening image t: [Errno 2] No such file or directory: 'D:\\Kerjaan\\iseng\\word maker\\t'
+ERROR:root:Error opening image e: [Errno 2] No such file or directory: 'D:\\Kerjaan\\iseng\\word maker\\e'
+ERROR:root:Error opening image s: [Errno 2] No such file or directory: 'D:\\Kerjaan\\iseng\\word maker\\s'
+ERROR:root:Error opening image 2: [Errno 2] No such file or directory: 'D:\\Kerjaan\\iseng\\word maker\\2'
+ERROR:root:Error opening image t: [Errno 2] No such file or directory: 'D:\\Kerjaan\\iseng\\word maker\\t'
+ERROR:root:Error opening image e: [Errno 2] No such file or directory: 'D:\\Kerjaan\\iseng\\word maker\\e'
+ERROR:root:Error opening image s: [Errno 2] No such file or directory: 'D:\\Kerjaan\\iseng\\word maker\\s'
+ERROR:root:Error opening image 1: [Errno 2] No such file or directory: 'D:\\Kerjaan\\iseng\\word maker\\1'
+ERROR:root:Error opening image t: [Errno 2] No such file or directory: 'D:\\Kerjaan\\iseng\\word maker\\t'
+ERROR:root:Error opening image e: [Errno 2] No such file or directory: 'D:\\Kerjaan\\iseng\\word maker\\e'
+ERROR:root:Error opening image s: [Errno 2] No such file or directory: 'D:\\Kerjaan\\iseng\\word maker\\s'
+ERROR:root:Error opening image 2: [Errno 2] No such file or directory: 'D:\\Kerjaan\\iseng\\word maker\\2'
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 70 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 91 34437
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 70 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 91 33777
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 70 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 91 9836
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 70 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 91 10028
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 70 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 91 10438
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 70 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 91 34437
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 70 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 91 33777
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 70 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 91 9836
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 70 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 91 10028
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 70 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 91 10438
+ERROR:root:Error adding image to document: 0 - 'int' object has no attribute 'read'
+ERROR:root:Error adding image to document: 1 - 'int' object has no attribute 'read'
+ERROR:root:Error adding image to document: 2 - 'int' object has no attribute 'read'
+ERROR:root:Error adding image to document: 3 - 'int' object has no attribute 'read'
+ERROR:root:Error adding image to document: 4 - 'int' object has no attribute 'read'
+ERROR:root:Error creating document: ImageToWordApp.add_image_to_doc() missing 1 required positional argument: 'total_margin'
+ERROR:root:Error adding image to document: 0 - 'int' object has no attribute 'read'
+ERROR:root:Error adding image to document: 1 - 'int' object has no attribute 'read'
+ERROR:root:Error adding image to document: 2 - 'int' object has no attribute 'read'
+ERROR:root:Error adding image to document: 3 - 'int' object has no attribute 'read'
+ERROR:root:Error adding image to document: 4 - 'int' object has no attribute 'read'
+ERROR:root:Error creating document: ImageToWordApp.add_image_to_doc() missing 1 required positional argument: 'total_margin'
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 70 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 91 34437
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 70 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 91 33777
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 70 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 91 9836
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 70 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 91 10028
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 70 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 91 10438
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 70 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 91 34437
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 70 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 91 33777
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 70 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 91 9836
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 70 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 91 10028
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'gAMA' 54 4
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 70 9
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 91 10438
+ERROR:root:Error adding image to document: 0 - 'int' object has no attribute 'read'
+ERROR:root:Error adding image to document: 1 - 'int' object has no attribute 'read'
+ERROR:root:Error adding image to document: 2 - 'int' object has no attribute 'read'
+ERROR:root:Error adding image to document: 3 - 'int' object has no attribute 'read'
+ERROR:root:Error adding image to document: 4 - 'int' object has no attribute 'read'
+ERROR:root:Error adding image to document: 5 - 'int' object has no attribute 'read'
+ERROR:root:Error adding image to document: 0 - 'int' object has no attribute 'read'
+ERROR:root:Error adding image to document: 1 - 'int' object has no attribute 'read'
+ERROR:root:Error adding image to document: 2 - 'int' object has no attribute 'read'
+ERROR:root:Error adding image to document: 3 - 'int' object has no attribute 'read'
+ERROR:root:Error adding image to document: 4 - 'int' object has no attribute 'read'
+ERROR:root:Error adding image to document: 5 - 'int' object has no attribute 'read'
+ERROR:root:Error adding image to document: 6 - 'int' object has no attribute 'read'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\dd5000_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_1.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_2.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_2.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_2.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_2.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_2.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_2.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_2.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_2.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error during zooming image: D:/Kerjaan/iseng/word maker/tc1\ddtrn_2.png - module 'PIL.Image' has no attribute 'ANTIALIAS'
+ERROR:root:Error adding image to document: PY_VAR0 - 'StringVar' object has no attribute 'read'
+ERROR:root:Error adding image to document: PY_VAR1 - 'StringVar' object has no attribute 'read'
+ERROR:root:Error adding image to document: PY_VAR0 - 'StringVar' object has no attribute 'read'
+ERROR:root:Error adding image to document: PY_VAR1 - 'StringVar' object has no attribute 'read'
+ERROR:root:Error adding image to document: {'note': '', 'image_paths': [<tkinter.StringVar object at 0x0000025A2BBC83E0>], 'layout': 'Single Column'} - 'dict' object has no attribute 'read'
+ERROR:root:Error adding image to document: {'note': '', 'image_paths': [<tkinter.StringVar object at 0x0000025A2BC2B920>], 'layout': 'Single Column'} - 'dict' object has no attribute 'read'
