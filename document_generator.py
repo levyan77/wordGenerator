@@ -4,6 +4,8 @@ from docx import Document
 from docx.shared import Inches
 from PIL import Image
 import logging
+import tkinter as tk
+from tkinter import messagebox
 
 def get_safe_max_image_width(max_image_width, is_two_column):
     page_width = 8.5  # inches
@@ -30,15 +32,29 @@ def create_document(output_file, images_dict, max_image_width, max_image_height=
             doc.add_paragraph(content['note'])
         doc.add_paragraph()
 
-    try:
-        save_document(doc, output_file)
-    except PermissionError:
-        print(f"Permission denied: The file '{output_file}' is already open. Please close it and try again.")
-        sys.exit(1)  # Exit the program with an error status
+    if not save_document(doc, output_file):
+        # If the user canceled the save operation, return without proceeding further
+        return
 
 def save_document(doc, output_file):
-    """Attempts to save the document, raising a PermissionError if the file is open."""
-    doc.save(output_file)
+    """Attempts to save the document, prompting the user to retry or cancel if the file is open."""
+    saved = False
+    while not saved:
+        try:
+            doc.save(output_file)
+            saved = True  # If the save is successful, break the loop
+        except PermissionError:
+            # Show a warning dialog if the file is already open
+            root = tk.Tk()
+            root.withdraw()  # Hide the main tkinter window
+            response = messagebox.askretrycancel("Permission Denied", 
+                                                 f"The file '{output_file}' is already open. Please close it and try again.")
+            root.destroy()
+            
+            if not response:
+                print("User canceled the save operation.")
+                return False  # Return False to indicate that the user canceled the operation
+    return True  # Return True to indicate that the save was successful
 
 def add_images_to_doc_two_columns(doc, content, max_image_width, max_image_height):
     table = doc.add_table(rows=0, cols=2)

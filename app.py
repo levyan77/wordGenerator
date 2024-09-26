@@ -26,14 +26,27 @@ class ImageToWordApp:
         load_preferences()  # Load user preferences on start
 
     def create_widgets(self):
-        Label(self.root, text="Select a folder containing images:", font=("Arial", 12)).pack(pady=10)
-        Button(self.root, text="Select Folder", command=self.select_folder, font=("Arial", 12), bg="lightblue").pack(pady=5)
-        self.button_generate = Button(self.root, text="Generate Document", command=self.generate_document, state="disabled", font=("Arial", 12), bg="lightgreen")
-        self.button_generate.pack(pady=10)
-        Button(self.root, text="Help", command=lambda: open_help(self.root), font=("Arial", 12), bg="lightgrey").pack(pady=5)
-        Button(self.root, text="Feedback", command=lambda: open_feedback(self.root), font=("Arial", 12), bg="lightgrey").pack(pady=5)
-        self.status_label = Label(self.root, text="", font=("Arial", 10))
-        self.status_label.pack(pady=5)
+        # Create a central frame for the content
+        content_frame = Frame(self.root)
+        content_frame.pack(expand=True)
+
+        # Center-align the label
+        Label(content_frame, text="Select a folder containing images:", font=("Arial", 12)).pack(pady=10, anchor="center")
+
+        # Center-align the "Select Folder" button
+        Button(content_frame, text="Select Folder", command=self.select_folder, font=("Arial", 12), bg="lightblue").pack(pady=5, anchor="center")
+
+        # Center-align the "Generate Document" button (initially disabled)
+        self.button_generate = Button(content_frame, text="Generate Document", command=self.generate_document, state="disabled", font=("Arial", 12), bg="lightgreen")
+        self.button_generate.pack(pady=10, anchor="center")
+
+        # Center-align Help and Feedback buttons
+        Button(content_frame, text="Help", command=lambda: open_help(self.root), font=("Arial", 12), bg="lightgrey").pack(pady=5, anchor="center")
+        Button(content_frame, text="Feedback", command=lambda: open_feedback(self.root), font=("Arial", 12), bg="lightgrey").pack(pady=5, anchor="center")
+
+        # Center-align the status label
+        self.status_label = Label(content_frame, text="", font=("Arial", 10))
+        self.status_label.pack(pady=5, anchor="center")
 
     def update_status(self, message):
         self.status_label.config(text=message)
@@ -68,46 +81,71 @@ class ImageToWordApp:
         scrollbar.pack(side="right", fill="y")
         self.canvas.pack(side="left", fill="both", expand=True)
 
-        Label(self.scrollable_frame, text="Image Preview", font=("Arial", 16, "bold")).pack(pady=10)
+        # Center the Image Preview label
+        Label(self.scrollable_frame, text="Image Preview", font=("Arial", 16, "bold")).pack(pady=10, anchor="center")
 
-        self.load_images(self.scrollable_frame)
+        # Load images and calculate ideal max width
+        self.max_image_width = self.load_images(self.scrollable_frame)
 
         width_frame = Frame(self.scrollable_frame)
         width_frame.pack(pady=15)
 
-        Label(width_frame, text="Max Image Width (inches):", font=("Arial", 12)).pack(side="left")
+        # Set the calculated max width value to the entry
+        Label(width_frame, text="Max Image Width (inches):", font=("Arial", 12)).pack(side="left", anchor="center")
         self.max_width_entry = Entry(width_frame, width=5, font=("Arial", 12))
-        self.max_width_entry.insert(0, str(self.max_image_width))
+        self.max_width_entry.insert(0, str(self.max_image_width))  # Insert calculated ideal width
         self.max_width_entry.pack(side="left", padx=5)
 
-        Button(self.preview_window, text="Save/Apply", command=self.on_save_apply, font=("Arial", 12), bg="lightgreen").pack(pady=10)
+        Button(self.preview_window, text="Save/Apply", command=self.on_save_apply, font=("Arial", 12), bg="lightgreen").pack(pady=10, anchor="center")
+
 
     def load_images(self, frame):
         images_dict = defaultdict(list)
+        largest_width = 0  # Variable to track the largest image width
+
         for filename in os.listdir(self.image_folder):
             if filename.lower().endswith(self.image_types):
                 image_path = os.path.join(self.image_folder, filename)
                 title = filename.split('_')[0]
                 images_dict[title].append(image_path)
 
+                # Open the image and check its width
+                with Image.open(image_path) as img:
+                    width, _ = img.size
+                    # Track the largest width found
+                    largest_width = max(largest_width, width)
+
         for title, image_paths in images_dict.items():
             self.add_image_controls(frame, title, image_paths)
 
+        # Convert the largest pixel width to inches, assuming 96 DPI (common screen resolution)
+        largest_width_inches = largest_width / 96
+        # Set the ideal max width as the largest image's width (in inches), with a reasonable max of 7 inches for a Word page
+        ideal_max_width = min(largest_width_inches, 7)  # Limiting it to 7 inches to fit on a Word page
+
+        return round(ideal_max_width, 2)  # Return the ideal width rounded to 2 decimal places
+
+
     def add_image_controls(self, frame, title, image_paths):
+        # Create a frame to hold everything for each image title
         title_frame = Frame(frame)
-        title_frame.pack(pady=10)
+        title_frame.pack(pady=10, anchor="center")  # Center align the whole frame
 
-        Label(title_frame, text=title, font=("Arial", 14, "bold")).pack(pady=5)
+        # Add the title label
+        Label(title_frame, text=title, font=("Arial", 14, "bold")).pack(pady=5, anchor="center")
 
+        # Add the layout option menu
         layout_var = StringVar(value="Single Column")
         option_menu = OptionMenu(title_frame, layout_var, "Single Column", "Two Columns", command=lambda _: self.refresh_preview(title))
-        option_menu.pack(side="left", padx=5)
+        option_menu.pack(side="top", padx=5, pady=5, anchor="center")
         self.layout_choices[title] = layout_var
 
+        # Add the notes entry widget
         note_entry = Text(title_frame, height=3, width=40, wrap='word', font=("Arial", 12))
-        note_entry.pack(pady=5)
+        note_entry.pack(pady=5, anchor="center")
         self.notes[title] = note_entry
 
+        # Add the image preview below the title and note entry
         self.preview_images(title_frame, title, image_paths)
 
     def preview_images(self, frame, title, image_paths):
@@ -115,18 +153,18 @@ class ImageToWordApp:
         columns = 2 if layout == "Two Columns" else 1
 
         preview_frame = Frame(frame)
-        preview_frame.pack(pady=5)
+        preview_frame.pack(pady=5, anchor="center")  # Center-align the frame for image previews
 
         for i, image_path in enumerate(image_paths):
             img = Image.open(image_path)
-            img.thumbnail((100, 100))
+            img.thumbnail((100, 100))  # Thumbnail for uniform image size
             img_tk = ImageTk.PhotoImage(img)
 
+            # Create labels for the images and place them in a grid
             label = Label(preview_frame, image=img_tk)
-            label.image = img_tk
+            label.image = img_tk  # Keep a reference to prevent garbage collection
             label.grid(row=i // columns, column=i % columns, padx=5, pady=5)
 
-        frame.pack(pady=10)
 
     def refresh_preview(self, title):
         for widget in self.scrollable_frame.winfo_children():
@@ -154,8 +192,6 @@ class ImageToWordApp:
         messagebox.showinfo("Success", "Settings have been saved!")
         self.preview_window.destroy()
 
-
-
     def generate_document(self):
         self.update_status("Generating document...")
         threading.Thread(target=self.create_document).start()
@@ -179,14 +215,19 @@ class ImageToWordApp:
         self.notes.clear()
         self.layout_choices.clear()
 
-        os.startfile(os.path.dirname(output_file))
+         # Open the generated document file directly
+        try:
+            os.startfile(os.path.dirname(output_file))
+            os.startfile(output_file)     
+        except Exception as e:
+            messagebox.showerror("Error", f"Could not open the file: {e}")
 
     def compile_images(self):
         images_dict = defaultdict(lambda: {'image_paths': [], 'note': '', 'layout': 'Single Column'})
 
         for title in self.layout_choices.keys():
             images_dict[title]['layout'] = self.layout_choices[title].get()
-            images_dict[title]['note'] = self.notes[title]  # This should be a string now
+            images_dict[title]['note'] = self.notes[title]
 
             for filename in os.listdir(self.image_folder):
                 if filename.lower().endswith(self.image_types):

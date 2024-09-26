@@ -6,7 +6,7 @@ import logging
 def open_help(root):
     help_window = Toplevel(root)
     help_window.title("Help")
-    help_window.geometry("600x600")
+    help_window.geometry("600x400")
     
     content_frame = Frame(help_window)
     content_frame.pack(fill='both', expand=True, padx=10, pady=10)
