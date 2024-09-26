@@ -14,12 +14,14 @@ def open_help(root):
     Label(content_frame, text="How to use the Image to Word Document Generator", font=("Arial", 14, "bold")).pack(pady=(10, 0))
 
     instructions = (
-        "1. Click 'Select Folder' to choose a folder with your images.\n"
-        "2. Preview your images and adjust the layout (single or two columns).\n"
-        "3. Optionally add notes for each image group.\n"
-        "4. Set the max image width if needed.\n"
-        "5. Click 'Generate Document' to create a Word document with your images.\n"
-        "6. After generation, the folder containing the document will open automatically."
+        "1. Click 'Demo' to see a step-by-step demonstration of the process.\n"
+        "2. Or manually follow these steps:\n"
+        "   a. Click 'Select Folders' to choose a folder with your images.\n"
+        "   b. Preview your images and adjust the layout (single or two columns).\n"
+        "   c. Optionally add notes for each image group.\n"
+        "   d. Set the max image width if needed.\n"
+        "   e. Click 'Generate Document' to create a Word document with your images.\n"
+        "3. After generation, the folder containing the document will open automatically."
     )
 
     instructions_label = Label(content_frame, text=instructions, font=("Arial", 12), justify="left")

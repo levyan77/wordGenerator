@@ -13,3 +13,14 @@ ERROR:root:Error adding image to table cell: D:/Kerjaan/iseng/wordGenerator/tc1\
 ERROR:root:Error adding image to table cell: D:/Kerjaan/iseng/wordGenerator/tc1\ddtrn_1.png - '_Cell' object has no attribute 'clear'
 ERROR:root:Error adding image to table cell: D:/Kerjaan/iseng/wordGenerator/tc1\ddtrn_2.png - '_Cell' object has no attribute 'clear'
 ERROR:root:Error adding image to table cell: D:/Kerjaan/iseng/wordGenerator/tc1\ddtrn_3.png - '_Cell' object has no attribute 'clear'
+ERROR:root:Error loading images from folder D:/kerjaan/iseng/wordGenerator/image_test: window name starts with an upper-case letter: "Screenshot"
+ERROR:root:Error creating document for folder D:/kerjaan/iseng/wordGenerator/image_test: create_document() missing 2 required positional arguments: 'images_dict' and 'max_image_width'
+ERROR:root:Error creating document for folder D:/kerjaan/iseng/wordGenerator/tc1: create_document() missing 2 required positional arguments: 'images_dict' and 'max_image_width'
+ERROR:root:Error creating document for folder D:/kerjaan/iseng/wordGenerator/tc1: create_document() missing 2 required positional arguments: 'images_dict' and 'max_image_width'
+ERROR:root:Error creating document for folder D:/kerjaan/iseng/wordGenerator/image_test: create_document() missing 2 required positional arguments: 'images_dict' and 'max_image_width'
+ERROR:root:Error creating document for folder D:/kerjaan/iseng/wordGenerator/image_test: create_document() missing 1 required positional argument: 'max_image_width'
+ERROR:root:Error creating document for folder D:/kerjaan/iseng/wordGenerator/tc1: create_document() missing 1 required positional argument: 'max_image_width'
+ERROR:root:Error creating document for folder D:/kerjaan/iseng/wordGenerator/tc1: cannot access local variable 'output_file' where it is not associated with a value
+ERROR:root:Error creating document for folder D:/kerjaan/iseng/wordGenerator/image_test: cannot access local variable 'output_file' where it is not associated with a value
+ERROR:root:Error loading images from folder SampleFolder1: [WinError 3] The system cannot find the path specified: 'SampleFolder1'
+ERROR:root:Error loading images from folder SampleFolder2: [WinError 3] The system cannot find the path specified: 'SampleFolder2'
