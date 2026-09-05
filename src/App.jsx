@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { Document, Packer, Paragraph, ImageRun, TextRun } from 'docx';
 import { saveAs } from 'file-saver';
 import { FolderUp, FileDown, Settings, Trash2 } from 'lucide-react';
@@ -78,7 +78,7 @@ function App() {
           new Paragraph({
             children: [
               new TextRun({
-                text: \Folder: \\,
+                text: `Folder: ${folder.name}`,
                 bold: true,
                 size: 32,
               }),
