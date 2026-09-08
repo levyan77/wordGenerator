@@ -47,6 +47,7 @@ export default function SortableFolder({ folder, removeFolder, updateNote, onEdi
             <img 
               src={URL.createObjectURL(f)} 
               alt="preview" 
+              title={f.name}
               className="h-20 w-20 object-cover rounded-md border border-gray-300" 
             />
             <div className="absolute inset-0 bg-black/40 hidden group-hover/img:flex items-center justify-center rounded-md">

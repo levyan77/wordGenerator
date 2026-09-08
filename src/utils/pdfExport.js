@@ -102,7 +102,17 @@ export const generatePdf = async (folders, config) => {
       const format = isPng ? 'PNG' : 'JPEG';
 
       doc.addImage(base64Img, format, xPos, yOffset, finalWidth, finalHeight);
-      yOffset += finalHeight + 10;
+      yOffset += finalHeight + 5; // Small gap for text
+
+      // Print filename
+      doc.setFontSize(9);
+      doc.setTextColor(100);
+      const textWidth = doc.getTextWidth(file.name);
+      const textX = xPos + (finalWidth - textWidth) / 2; // Center under image
+      doc.text(file.name, textX, yOffset);
+      
+      yOffset += 15; // Gap before next image or folder
+      doc.setTextColor(0); // Reset color
     }
     
     yOffset += 10; // Space between folders

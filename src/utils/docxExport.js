@@ -110,6 +110,21 @@ export const generateDocx = async (folders, config) => {
             }),
           ],
           alignment: AlignmentType.CENTER,
+          spacing: { after: 60 }, // Reduced spacing between image and caption
+        })
+      );
+
+      // Add file name as caption below the image
+      children.push(
+        new Paragraph({
+          children: [
+            new TextRun({
+              text: file.name,
+              size: 20, // 10pt (in half-points)
+              color: "555555",
+            }),
+          ],
+          alignment: AlignmentType.CENTER,
           spacing: { after: 200 },
         })
       );
